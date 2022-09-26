@@ -15,7 +15,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         char menyVal = scan.nextLine().charAt(0);
-        //scan.nextLine().charAt(0)
+        
         if (menyVal == '1') {
           System.out.println("Här adderar vi två tal");
           Addera(scan);
